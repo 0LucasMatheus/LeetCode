@@ -8,7 +8,7 @@ class Solution {
             //tira o - se for negativo
             S = S.substring(1);
         }
-        //inverte
+        //inverte o numero
         String Sinvertido = new StringBuilder(S).reverse().toString();
         try {
             //vira int de volta
